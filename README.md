@@ -38,6 +38,13 @@ Install Solana SLI from source (for aarch64-unknown-linux-gnu)
     Install yarn
     $ sudo npm install --global yarn
 
+    Setup SSH for Github
+    $ ssh-keygen -t ed25519 -C "my@email.com"
+    $ eval "$(ssh-agent -s)"
+    $ ssh-add ~/.ssh/id_ed25519
+    $ cat ~/.ssh/id_ed25519
+    Paste to Github->SSH -> New SSH key
+
     
 
 Notes:
